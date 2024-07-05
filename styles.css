@@ -88,6 +88,7 @@ header {
 
 .group p {
   max-width: 600px;
+  color: #d1cfcf;
 }
 
 .group img {
@@ -159,6 +160,7 @@ header {
 
 .goals > div h2 {
   margin-block: 2rem;
+  text-align: center;
 }
 
 .goals ul {
@@ -239,5 +241,13 @@ header {
 @media (max-width: 380px) {
   .block-announcer p {
     font-size: 2rem;
+  }
+
+  .group p {
+    font-size: medium;
+  }
+
+  .primary-container {
+    padding-inline: 0.5rem;
   }
 }
