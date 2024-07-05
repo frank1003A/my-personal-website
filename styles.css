@@ -47,9 +47,9 @@ header > div h1 {
 }
 
 header > div img {
-  width: 3rem;
-  height: 3rem;
   border-radius: 8px;
+  border: 2px solid var(--primary);
+  margin-block: 1rem;
 }
 
 header {
@@ -84,6 +84,7 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+  margin-top: 1rem;
 }
 
 .group p {
@@ -92,8 +93,11 @@ header {
 }
 
 .group img {
-  max-width: 100px; /* Example size */
+  /* Example size */
   height: auto;
+  border-radius: 8px;
+  border: 2px solid var(--primary);
+  margin-block: 1rem;
 }
 
 .block-announcer {
@@ -226,6 +230,10 @@ header {
 
 .time-day p {
   margin: 0.5rem 0;
+}
+
+.time-day span {
+  color: var(--primary);
 }
 
 @media (max-width: 600px) {
