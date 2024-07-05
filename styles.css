@@ -56,6 +56,10 @@ header {
   color: white;
 }
 
+.req-image {
+  border-radius: 8px;
+}
+
 .hero {
   display: flex;
   justify-content: center;
@@ -75,7 +79,7 @@ header {
 .center-container {
   text-align: center;
   color: white;
-  margin-top: 5rem;
+  margin-top: 8rem;
 }
 
 /* Styles for the group class */

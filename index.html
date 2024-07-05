@@ -15,20 +15,40 @@
   <body style="background-image: url(/src//assets/bg.png)">
     <header>
       <div>
-        <img
-          src="https://ca.slack-edge.com/T07466B189M-U07B17S2K1T-a0c42406b138-512"
-          alt="Slack Profile Picture"
-          data-testid="slackProfilePicture"
-          width="48"
-          height="48"
-        />
-        <h1 data-testid="slackDisplayName">@Frank Ezene</h1>
+        <h1>Personal Website</h1>
       </div>
     </header>
     <main class="primary-container">
       <section class="hero">
         <div class="center-container">
-          <span>👏 Hi I'm Frank Ezene</span>
+          <div style="position: relative; height: fit-content; width: 100%">
+            <img
+              class="req-image"
+              src="https://ca.slack-edge.com/T07466B189M-U07B17S2K1T-a0c42406b138-512"
+              alt="Slack Profile Picture"
+              data-testid="slackProfilePicture"
+              width="300"
+              height="300"
+              style="border: 2px solid var(--primary)"
+            />
+            <h1
+              data-testid="slackDisplayName"
+              style="
+                font-size: small;
+                margin-bottom: 3rem;
+                position: absolute;
+                bottom: 0;
+                background-color: var(--primary);
+                padding: 1rem;
+                border-radius: 8px;
+              "
+            >
+              @Frank Ezene
+            </h1>
+          </div>
+
+          <br />
+          <br />
           <h1>A <span>Graphics Designer &</span></h1>
           <div class="group">
             <div class="block-announcer">
@@ -38,15 +58,6 @@
               <span></span>
               <span></span>
             </div>
-            <p>
-              I am a skilled Fullstack Developer with strong web design
-              experience. I have expertise in JavaScript, TypeScript, React,
-              Next.js, and NestJS. Additionally, I am proficient in database
-              management using PostgreSQL, MongoDB, and Prisma. My GitHub
-              portfolio showcases successful projects, and I am currently
-              focusing on AI chatbot development. I am committed to innovation
-              and bringing value to your team.
-            </p>
           </div>
         </div>
       </section>
