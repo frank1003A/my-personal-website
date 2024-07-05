@@ -250,4 +250,8 @@ header {
   .primary-container {
     padding-inline: 0.5rem;
   }
+
+  .footer ul {
+    flex-direction: column;
+  }
 }
